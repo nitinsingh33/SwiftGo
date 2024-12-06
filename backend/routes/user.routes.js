@@ -12,6 +12,8 @@ router.post('/register', [
     user.Controller.registerUser
 )
 
-router.
+router.post('/login', [
+    body('email').isEmail
+])
 
 modele.exports = router;
