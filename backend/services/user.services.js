@@ -16,5 +16,5 @@ model.exports.createUser = async ({
         password
     })
 
-    return user;
+    return user ;
 }
