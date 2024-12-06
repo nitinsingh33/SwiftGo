@@ -12,4 +12,6 @@ router.post('/register', [
     user.Controller.registerUser
 )
 
+router.
+
 modele.exports = router;
